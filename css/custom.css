@@ -138,6 +138,9 @@ div.container-no-top-pad{
     padding-right: 0;
   }
   th{font-size: 14px;font-weight: bold;}
+  .table-bordered > thead > tr > th.table-td-overview, .table-bordered > tbody > tr > td.table-td-transparent{
+    border-right-color: transparent;
+  }
   .table-bordered > tbody > tr > td.table-td-overview{
     border:none;
     border-bottom:1px solid #ddd;
